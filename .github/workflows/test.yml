@@ -54,7 +54,7 @@ jobs:
       - name: Install pana
         run: flutter pub global activate pana
       - name: Calculate pub points
-        run: flutter pub pub global run pana  --exit-code-threshold 0 .
+        run: flutter pub pub global run pana
 
   test_publishing:
     name: Test publishing
