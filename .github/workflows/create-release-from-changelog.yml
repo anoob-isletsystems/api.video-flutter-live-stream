@@ -4,7 +4,9 @@ on:
   push:
     paths:
       - 'CHANGELOG.md'
-
+permissions:
+  contents: write
+  
 jobs:
   update-documentation:
     runs-on: ubuntu-latest
